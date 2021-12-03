@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV in House</title>
+</head>
+<style>
+    .central {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+       }
+    .borda  {
+        border: 2px solid rgb(12, 12, 12);
+        border-radius: 50px 20px; 
+        text-align: center;
+        width: 50%;
+    }
+    .altura {
+        padding: 5px;
+    }
+    .larginput{
+    width:100%;
+    background:transparent !important;
+}    
+</style>
+<body>
+    <form>
+    <div class="central">
+        <div class="borda">
+            <div class="altura">
+                <p><h1>Cadastro</h1></p>
+            </div>
+            <div class="altura">
+                <div class="altura" align="left">
+                    <label><b>Nome  </b></label>
+                </div>
+                <div class="altura">
+                    <input class="larginput" type="text" id="nome" name="nome" placeholder="Nome" title="Insira aqui o seu nome"> 
+                </div>
+            </div>
+            <div class="altura">
+                <div class="altura" align="left">
+                    <label><b>Sobrenome  </b></label>
+                </div>
+                <div class="altura">
+                    <input class="larginput" type="text" id="snome" name="snome" placeholder="Sobrenome" title="Insira aqui o seu sobrenome"> 
+                </div>
+            </div>
+            <div class="altura">
+                <div class="altura">
+                    <label><b>Senha </b></label>
+                </div>
+                <div class="altura">
+                    <input type="password" id="senha" name="senha" placeholder="Senha" title="Insira aqui a sua Senha">
+                </div>
+            </div>
+            <div class="altura">
+                <input type="submit" id="bt1" name="bt1">
+            </div>
+            
+        </div>
+    </div>
+</form>
+    
+</body>
+</html>
